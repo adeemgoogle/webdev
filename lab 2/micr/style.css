@@ -1,0 +1,138 @@
+body{
+	background-color: white;
+	font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	margin: 0;
+}
+.menu,.rightMenu{
+	display: flex;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style-type:none;	
+	padding: 0;
+}
+#logo img {
+    height: 80px;
+    max-height: 80px;
+    width: auto;
+}
+.container{
+	width: 1220px;
+	margin: auto;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	height: 22px;
+}
+#signin{
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+header ul{
+	
+	display:  flex;
+	margin: 10px 0;
+}
+header ul li{
+	padding: 6px 10px;
+	font-size: 13px;
+}
+header ul li a{
+	display: block;
+	margin-top: auto;
+
+}
+
+
+.main-card{
+	position: relative;
+}
+.main-card img{
+	width: 100%;
+}
+.main-card .content{
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	width: 400px;
+}
+.main-card h1{
+	font-weight: 600;
+	font-size: 24px;
+	color: #fff;
+}
+.main-card p{
+	margin-bottom: 32px;
+	color: #fff;
+}
+.mainBtn{
+	background-color: white;
+	color:black ;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 8px 20px;
+	margin-right: 24px;
+}
+
+.cards{
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	width: 280px;
+}
+.cardImg{
+	width: 100%;
+}
+.cardHeading{
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom:0;
+}
+.cardText{
+	margin: 10px 0;
+}
+.cardBtn{
+	margin: 10px 0;
+	color: rgb(0,103,184);
+	font-weight: 600;
+}
+
+footer{
+	background-color: rgb(242,242,242);
+	color: rgb(97,97,97);
+}
+.footer-menu{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	font-size: 12px;
+}
+.footer-menu li{
+	padding: 6px 0;
+}
+.ulHead{
+	font-size: 14px;
+	font-weight:600;
+}
+
+.footer-bottom{
+	display: flex;
+	justify-content: space-between; 
+	font-size: 12px;
+}
+.footer-bottom ul{
+	display: flex;
+	justify-content: space-between; 
+	gap:20px;
+}
