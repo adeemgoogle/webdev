@@ -1,0 +1,108 @@
+.hh{
+    background-color: black;
+    color: antiquewhite;
+  
+    margin-top: -22px;
+    margin-left: -8px;
+    padding-left: 3px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.tasks{
+    margin-left:100px;
+    font-size: 40px;
+    margin-top: 50px;
+    
+}
+.inputbtn{
+    margin-top: -40px;
+    margin-left: 70px;
+    text-align: center;
+}
+.input{
+    margin-top: -560px;
+    padding: 5px 350px 5px 11px ;
+    
+}
+.bbtn{
+    background-color: rgb(68, 68, 236);
+    width: 45px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+.todo {
+  padding-left: 0; 
+}
+.todo li {
+    padding: 3px;
+    list-style-type: none; 
+    font: 22px sans-serif;
+    margin-left: 200px;
+}
+.todo li:not(:last-child) {
+    border-bottom: 1px solid #000 ; 
+    position: relative;
+    margin-right: 430px;
+}
+.del{
+    margin-top: -30px;
+    margin-left: 840px;
+    text-align: center;
+}
+.deel{
+    background-color: red;
+    width: 59px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 2px;
+    color: white;
+    cursor: pointer;
+
+}
+
+input[type=checkbox] {
+  opacity: 0;
+  position: absolute; }
+
+input[type=checkbox], label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 12px;
+  cursor: pointer; }
+
+input[type=checkbox] + label:before {
+  content: '';
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  width: 6px;
+  height: 5px;
+  padding: 2px;
+  margin-right: 10px;
+  text-align: center;
+}
+input[type=checkbox]:checked + label:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 5px;
+    border: solid blue;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    border-radius: 0;
+    margin: 0 15px 5px 5px; 
+}
+
+
