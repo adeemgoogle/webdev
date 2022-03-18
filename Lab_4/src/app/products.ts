@@ -14,7 +14,7 @@ export const products = [
     name: 'Logitech G600',
     price: 26.99,
     description: 'MMO Gaming Mouse',
-    img:'https://m.media-amazon.com/images/Lab_4I/61QYugFCxPL._AC_SX679_.jpg',
+    img:'https://m.media-amazon.com/images/I/61QYugFCxPL._AC_SX679_.jpg',
     link:'https://www.amazon.com/Logitech-Gaming-Backlit-Programmable-Buttons/dp/B0086UK7IQ/?_encoding=UTF8&pd_rd_w=0A7Og&pf_rd_p=26dacb9e-c45b-4443-bb96-74ce304824a7&pf_rd_r=NC8MY6N2S0NEVCANCR3J&pd_rd_r=f85a8e5c-6af2-4d12-8319-f26633fcfbac&pd_rd_wg=Z7zx2&ref_=pd_gw_exports_top_sellers_unrec',
     rating:4.5
   },
